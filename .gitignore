@@ -1,0 +1,87 @@
+# === Credenciales y secretos ===
+Credenciales VPS/
+CREDENCIALES_VISOR.txt
+*.env
+.env*
+credentials.json
+*.pem
+*.key
+*_ed25519
+*_ed25519.pub
+secrets/
+
+# === Bases de datos ===
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# === Backups y dumps ===
+*.bak
+*.backup
+*.dump
+backups/
+
+# === Tokens y configs privadas ===
+*token*
+*secret*
+config/local*.py
+config/prod*.py
+
+# === Frontend ===
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env*
+*.local
+
+# === Backend ===
+backend-nucleo/__pycache__/
+backend-nucleo/**/__pycache__/
+backend-nucleo/**/*.pyc
+backend-nucleo/.env*
+backend-nucleo/venv/
+backend-nucleo/.venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+*.egg-info/
+.eggs/
+
+# === Scripts de deploy/debug temporales ===
+deploy_*.py
+check_*.py
+debug*.py
+diagnose.py
+fix_*.py
+force_*.py
+finalizar_*.py
+import_*.py
+importar_*.py
+insert_*.py
+leer_*.py
+restart_*.py
+run_*.py
+test_*.py
+upload_*.py
+verificar_*.py
+verify_*.py
+vps_*.py
+
+# === Archivos de trabajo locales ===
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# === Diseño/archivos binarios grandes ===
+*.ai
+*.psd
+*.sketch
+
+# === Python venv ===
+venv/
+.venv/
+env/

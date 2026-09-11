@@ -1,0 +1,112 @@
+Resumen de comparación - Productos
+Fecha: 2026-04-11 23:16:20
+Total Recoleta: 800
+Total Palermo: 774
+Diferencias de nombre: 22
+Solo en Recoleta: 29
+Solo en Palermo: 3
+
+Códigos con nombre distinto:
+- 15 | Recoleta: VODKA ABSOLUT CON RED BULL | Palermo: VODKA ABSOLUT CON REDBULL
+- 486 | Recoleta: ADICIONAL ACONCAGUA | Palermo: GIN TIRADO HAPPY HOUR
+- 719 | Recoleta: CANILLA 1 - "LIEBRE PATAGONICA" LIGHT LAGER | Palermo: CANILLA 1 - HONEY ALE
+- 720 | Recoleta: CANILLA 2 - GERMAN PILS | Palermo: CANILLA 2 - "VIERNES" LIGHT LAGER
+- 721 | Recoleta: CANILLA 3 - HONEY ALE | Palermo: CANILLA 3 - "CIRCULO ROJO" AMBER LAGER
+- 722 | Recoleta: CANILLA 4 - AMBER LAGER | Palermo: CANILLA 4 - "RITUAL" RED IPA
+- 723 | Recoleta: CANILLA 5 - "WILLIAM WALLACE" SCOTTISH | Palermo: CANILLA 5 - "2 BONDIS" APA
+- 724 | Recoleta: CANILLA 6 - "RITUAL" RED IPA | Palermo: CANILLA 6 - "INFRAMUNDO" STOUT
+- 725 | Recoleta: CANILLA 7 - "INFRAMUNDO" STOUT | Palermo: CANILLA 7 - "#NONSTOP" AMERICAN IPA
+- 726 | Recoleta: CANILLA 8 - "2 BONDIS" APA | Palermo: CANILLA 8 - "INSOLENTE" SESSION IPA
+- 727 | Recoleta: CANILLA 9 - "NON STOP" AMERICAN IPA | Palermo: CANILLA 9 - DOBLE IPA
+- 729 | Recoleta: CANILLA 11 - BARLEY WINE | Palermo: CANILLA 11 - AMERICAN PILSEN
+- 730 | Recoleta: CANILLA 12 - "DOUBBLE HOPPY" RED ALE | Palermo: CANILLA 12 - GOLD RUSH "CALIFORNIA COMMON"
+- 739 | Recoleta: CAFE CON LECHE CHICO | Palermo: CAFE CON LECHE
+- 743 | Recoleta: CROISSANT | Palermo: CROISSAMT
+- 750 | Recoleta: PAN CHOCOLATE | Palermo: PAN DE CHOCOLATE
+- 758 | Recoleta: CANILLA 13 - DOBLE IPA | Palermo: CANILLA 13 - N/A
+- 776 | Recoleta: CANILLA 14 - "INSOLENTE" SESSION IPA | Palermo: CANILLA 14 - N/A
+- 777 | Recoleta: CANILLA 15 - "COLD" IPA | Palermo: CANILLIA 15 - N/A
+- 778 | Recoleta: CANILLA 16 - "FRAMBUMARACUYA" SOUR | Palermo: CANILLA 16 - N/A
+- 779 | Recoleta: CANILLA 17 - "INCOGNITO NECTARON" MINI NEIPA | Palermo: CANILLA 17 - N/A
+- 780 | Recoleta: CANILLA 18 - GIN TONIC TIRADO | Palermo: CANILLA 18 - N/A
+
+Códigos solo en Recoleta (29): 84-86, 88, 224-225, 227, 229, 624-626, 675-678, 681-682, 698, PY04, PY05, PY06, PYSC, PYSG, PYSL, PYSM, PYSP, PYSQ, PYSS, PYST
+Códigos solo en Palermo (3): 732-734
+
+Diferencias de rubro/subrubro: 55
+- 9 | Recoleta: D TRAGOS > ADICIONALES | Palermo: D TRAGOS > GIN TONIC´S
+- 10 | Recoleta: D TRAGOS > ADICIONALES | Palermo: D TRAGOS > GIN TONIC´S
+- 14 | Recoleta: D TRAGOS > ADICIONALES | Palermo: D TRAGOS > TRAGOS CLASICOS
+- 15 | Recoleta: D TRAGOS > ADICIONALES | Palermo: D TRAGOS > TRAGOS CLASICOS
+- 16 | Recoleta: D TRAGOS > ADICIONALES | Palermo: D TRAGOS > TRAGOS CLASICOS
+- 17 | Recoleta: D TRAGOS > ADICIONALES | Palermo: D TRAGOS > TRAGOS CLASICOS
+- 94 | Recoleta: VARIOS > VARIOS | Palermo: I VARIOS > VARIOS
+- 95 | Recoleta: VARIOS > VARIOS | Palermo: I VARIOS > VARIOS
+- 103 | Recoleta: D TRAGOS > ADICIONALES | Palermo: D TRAGOS > GIN TONIC´S
+- 104 | Recoleta: VARIOS > VARIOS | Palermo: I VARIOS > VARIOS
+- 105 | Recoleta: D TRAGOS > ADICIONALES | Palermo: D TRAGOS > GIN TONIC´S
+- 111 | Recoleta: VARIOS > VARIOS | Palermo: I VARIOS > VARIOS
+- 114 | Recoleta: VARIOS > VARIOS | Palermo: I VARIOS > VARIOS
+- 206 | Recoleta: F DELIVERY > VARIOS | Palermo: F DELIVERY > OTROS
+- 244 | Recoleta: VARIOS > VARIOS | Palermo: H SEÑAS > OTROS
+- 311 | Recoleta: F DELIVERY > HAMBURGUESAS | Palermo: F DELIVERY > OTROS
+- 378 | Recoleta: F DELIVERY > HAMBURGUESAS | Palermo: F DELIVERY > OTROS
+- 379 | Recoleta: F DELIVERY > HAMBURGUESAS | Palermo: F DELIVERY > OTROS
+- 404 | Recoleta: F DELIVERY > HAMBURGUESAS | Palermo: F DELIVERY > OTROS
+- 405 | Recoleta: F DELIVERY > HAMBURGUESAS | Palermo: F DELIVERY > OTROS
+- 413 | Recoleta: VARIOS > VARIOS | Palermo: H SEÑAS > OTROS
+- 414 | Recoleta: F DELIVERY > MILANESAS | Palermo: F DELIVERY > DELIVERY
+- 415 | Recoleta: D TRAGOS > ADICIONALES | Palermo: D TRAGOS > GIN TONIC´S
+- 449 | Recoleta: F DELIVERY > HAMBURGUESAS | Palermo: F DELIVERY > OTROS
+- 486 | Recoleta: D TRAGOS > ADICIONALES | Palermo: D TRAGOS > GIN TONIC´S
+- 511 | Recoleta: C COMIDA > PLATOS | Palermo: C COMIDA > PARA COMPARTIR
+- 512 | Recoleta: C COMIDA > PLATOS | Palermo: C COMIDA > PARA COMPARTIR
+- 524 | Recoleta: VARIOS > VARIOS | Palermo: H SEÑAS > OTROS
+- 583 | Recoleta: VARIOS > VARIOS | Palermo: H SEÑAS > OTROS
+- 637 | Recoleta: F DELIVERY > HAMBURGUESAS | Palermo: F DELIVERY > OTROS
+- 646 | Recoleta: VARIOS > VARIOS | Palermo: I VARIOS > VARIOS
+- 656 | Recoleta: C COMIDA > PLATOS | Palermo: C COMIDA > PARA COMPARTIR
+- 690 | Recoleta: VARIOS > VARIOS | Palermo: I VARIOS > VARIOS
+- 743 | Recoleta: G MENU EJECUTIVO > DULCES | Palermo: E CAFE > PASTELERIA
+- 746 | Recoleta: G MENU EJECUTIVO > DULCES | Palermo: E CAFE > PASTELERIA
+- 749 | Recoleta: G MENU EJECUTIVO > DULCES | Palermo: E CAFE > PASTELERIA
+- 750 | Recoleta: G MENU EJECUTIVO > DULCES | Palermo: E CAFE > PASTELERIA
+- 754 | Recoleta: G MENU EJECUTIVO > SALADOS | Palermo: E CAFE > SALADOS
+- 774 | Recoleta: F DELIVERY > HAMBURGUESAS | Palermo: F DELIVERY > OTROS
+- 775 | Recoleta: F DELIVERY > HAMBURGUESAS | Palermo: F DELIVERY > OTROS
+- 797 | Recoleta: B CERVEZA > PETS | Palermo: C COMIDA > PROMOS
+- 798 | Recoleta: G MENU EJECUTIVO > CAFES | Palermo: E CAFE > CAFE
+- 799 | Recoleta: G MENU EJECUTIVO > CAFES | Palermo: E CAFE > CAFE
+- 800 | Recoleta: G MENU EJECUTIVO > CAFES | Palermo: E CAFE > CAFE
+- 801 | Recoleta: G MENU EJECUTIVO > CAFES | Palermo: E CAFE > CAFE
+- 802 | Recoleta: G MENU EJECUTIVO > CAFES | Palermo: E CAFE > CAFE
+- 804 | Recoleta: G MENU EJECUTIVO > DULCES | Palermo: G MENU EJECUTIVO > SALADOS
+- 805 | Recoleta: G MENU EJECUTIVO > DULCES | Palermo: G MENU EJECUTIVO > SALADOS
+- 807 | Recoleta: VARIOS > VARIOS | Palermo: I VARIOS > VARIOS
+- 808 | Recoleta: VARIOS > VARIOS | Palermo: I VARIOS > VARIOS
+- 810 | Recoleta: D TRAGOS > PROMOS | Palermo: A BEBIDAS > LIMONADAS
+- 811 | Recoleta: D TRAGOS > PROMOS | Palermo: A BEBIDAS > LIMONADAS
+- 998 | Recoleta: VARIOS > VARIOS | Palermo: H SEÑAS > OTROS
+- 999 | Recoleta: VARIOS > VARIOS | Palermo: H SEÑAS > OTROS
+- 1000 | Recoleta: VARIOS > VARIOS | Palermo: H SEÑAS > OTROS
+
+Vacantes Recoleta: máximo 831 | total 48 | 120-129, 138-149, 155-159, 167, 302, 389, 417-419, 596, 732-734, 759-768, 809
+Vacantes Palermo: máximo 831 | total 63 | 84-86, 88, 120-129, 138-149, 155-159, 167, 224-225, 227, 229, 302, 389, 417-419, 596, 624-626, 675-678, 681-682, 698, 759-768, 809
+
+Rubros solo en Recoleta:
+- VARIOS
+
+Rubros solo en Palermo:
+- I VARIOS
+
+Subrubros solo en Recoleta:
+- J INTEGRACION > PedidosYa
+- VARIOS > VARIOS
+
+Subrubros solo en Palermo:
+- C COMIDA > ALMACEN
+- C COMIDA > CARNES
+- C COMIDA > LACTEOS
+- C COMIDA > VERDULERIA
+- I VARIOS > VARIOS
+- J INTEGRACION > PEDIDOSYA

@@ -1,0 +1,9 @@
+{
+  "name": "cervezabot",
+  "version": "1.0.0",
+  "description": "Bot de Telegram para auditoría de barriles",
+  "dependencies": {
+    "google-auth-library": "^9.0.0",
+    "google-spreadsheet": "^4.1.1"
+  }
+}

@@ -1,0 +1,140 @@
+============================================================
+REPORTE API NUCLEOCHECK
+Generado: 2026-04-11 19:23:46
+Total requests: 70 | Interesantes: 18
+============================================================
+
+── REQUESTS INTERESANTES ──
+
+[19:21:44] POST https://api-prod.nucleocheck.com/Account/ValidateToken
+  RESPONSE (200): {"ValidationResult":{"ErrorMessages":["IDX12741: JWT must have three segments (JWS) or five segments (JWE)."],"HasErrors":true,"WarningsMessages":[],"HasWarnings":false,"ConfirmMessages":[],"HasConfirm":false},"User":null,"NewToken":null,"CurrentTimeZone":-3}
+
+[19:21:57] POST https://api-prod.nucleocheck.com/Account/ValidateUserAndGetCompanies
+  BODY: {"EmailUser":"tdemattia@santacebada.com.ar","Password":"13502","CompanyId":0,"IsUserCheck":true}
+  RESPONSE (200): {"ValidationResult":{"ErrorMessages":[],"HasErrors":false,"WarningsMessages":[],"HasWarnings":false,"ConfirmMessages":[],"HasConfirm":false},"Companies":[{"Id":1041,"Name":"Santa Cebada - Recoleta","Tag":null,"NameIds":[],"PicturePath":null}],"IsAdminUser":false,"CurrentTimeZone":-3}
+
+[19:21:57] POST https://api-prod.nucleocheck.com/Account/LoginUser
+  BODY: {"EmailUser":"tdemattia@santacebada.com.ar","Password":"13502","CompanyId":1041,"IsUserCheck":true}
+  RESPONSE (200): {"ValidationResult":{"ErrorMessages":[],"HasErrors":false,"WarningsMessages":[],"HasWarnings":false,"ConfirmMessages":[],"HasConfirm":false},"User":{"Id":3575,"UserName":"Tiago De Mattia","Password":null,"EmployeeId":2,"EmailAddress":"tdemattia@santacebada.com.ar","EmailConfirmed":true,"ActivationCode":"a2d85392bd8948bbb0a8b1a3361c20d0","ChangePassword":true,"Employee":{"Id":2,"Name":"Natacha Bordon","Code":"2","Birthdate":null,"Email":"NBordon@santacebada.com.ar","Wage":null,"EmployeeRoleId":2,
+
+[19:21:58] POST https://api-prod.nucleocheck.com/Account/ValidateToken
+  RESPONSE (200): {"ValidationResult":{"ErrorMessages":[],"HasErrors":false,"WarningsMessages":[],"HasWarnings":false,"ConfirmMessages":[],"HasConfirm":false},"User":{"Id":3575,"UserName":"Tiago De Mattia","Password":null,"EmployeeId":null,"EmailAddress":null,"EmailConfirmed":false,"ActivationCode":null,"ChangePassword":false,"Employee":null,"Roles":[],"Permissions":[],"Companies":[],"Hubs":[],"IsCentralizer":false,"DateCreated":"2026-04-11T22:21:58.5565149Z","DateUpdated":null,"CreatedUserId":0,"UpdatedUserId":n
+
+[19:21:58] GET https://api-prod.nucleocheck.com/Menu/GetMenu
+  RESPONSE (200): [{"Id":1,"Constant":null,"Name":"Menú","Icon":"fa-concierge-bell","Route":null,"Childs":[{"Id":2,"Constant":null,"Name":"Productos","Icon":"fa-drumstick-bite","Route":null,"Childs":[{"Id":3,"Constant":null,"Name":"Lista de productos","Icon":null,"Route":"/products/list","Childs":[],"IsActive":true,"Enabled":true,"Order":1,"CurrentTimeZone":-3},{"Id":4,"Constant":null,"Name":"Stock de productos","Icon":null,"Route":"/products/productStockFlow","Childs":[],"IsActive":true,"Enabled":true,"Order":2,
+
+[19:21:58] POST https://api-prod.nucleocheck.com/NucleoHub/negotiate?clientType=web&clientId=web-1775946117845-f0i9ykngx-chr&companyId=1041&negotiateVersion=1
+  RESPONSE (200): {"negotiateVersion":0,"url":"https://ngsignal.service.signalr.net/client/?hub=nucleohub&asrs.op=%2FNucleoHub&clientType=web&clientId=web-1775946117845-f0i9ykngx-chr&companyId=1041&negotiateVersion=1&asrs_request_id=yRv9LgoOAAA%3D","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ii01NDU0MzU3MTcifQ.eyJuYmYiOjE3NzU5NDYxMTksImV4cCI6MTc3NTk0OTcxOSwiaWF0IjoxNzc1OTQ2MTE5LCJhdWQiOiJodHRwczovL25nc2lnbmFsLnNlcnZpY2Uuc2lnbmFsci5uZXQvY2xpZW50Lz9odWI9bnVjbGVvaHViIn0.F2rGHMVgFYimmUi90UN8GaGrP-1ZY0f
+
+[19:21:59] POST https://ngsignal.service.signalr.net/client/negotiate?hub=nucleohub&asrs.op=%2FNucleoHub&clientType=web&clientId=web-1775946117845-f0i9ykngx-chr&companyId=1041&negotiateVersion=1&asrs_request_id=yRv9LgoOAAA%3D
+  RESPONSE (200): {"negotiateVersion":1,"connectionId":"W8k5Ulo0cFxG_EpK31KSigDKbXGQK02","connectionToken":"L2gue9P61B9hUnCnY-P6jADKbXGQK02","availableTransports":[{"transport":"WebSockets","transferFormats":["Text","Binary"]},{"transport":"ServerSentEvents","transferFormats":["Text"]},{"transport":"LongPolling","transferFormats":["Text","Binary"]}]}
+
+[19:22:01] GET https://api-prod.nucleocheck.com/Menu/GetMenu
+  RESPONSE (200): [{"Id":1,"Constant":null,"Name":"Menú","Icon":"fa-concierge-bell","Route":null,"Childs":[{"Id":2,"Constant":null,"Name":"Productos","Icon":"fa-drumstick-bite","Route":null,"Childs":[{"Id":3,"Constant":null,"Name":"Lista de productos","Icon":null,"Route":"/products/list","Childs":[],"IsActive":true,"Enabled":true,"Order":1,"CurrentTimeZone":-3},{"Id":4,"Constant":null,"Name":"Stock de productos","Icon":null,"Route":"/products/productStockFlow","Childs":[],"IsActive":true,"Enabled":true,"Order":2,
+
+[19:22:08] POST https://api-prod.nucleocheck.com/Account/ValidateToken
+  RESPONSE (200): {"ValidationResult":{"ErrorMessages":[],"HasErrors":false,"WarningsMessages":[],"HasWarnings":false,"ConfirmMessages":[],"HasConfirm":false},"User":{"Id":3575,"UserName":"Tiago De Mattia","Password":null,"EmployeeId":null,"EmailAddress":null,"EmailConfirmed":false,"ActivationCode":null,"ChangePassword":false,"Employee":null,"Roles":[],"Permissions":[],"Companies":[],"Hubs":[],"IsCentralizer":false,"DateCreated":"2026-04-11T22:22:09.1596957Z","DateUpdated":null,"CreatedUserId":0,"UpdatedUserId":n
+
+[19:22:09] POST https://api-prod.nucleocheck.com/Account/ValidateToken
+
+[19:22:09] POST https://api-prod.nucleocheck.com/Account/ValidateToken
+  RESPONSE (200): {"ValidationResult":{"ErrorMessages":[],"HasErrors":false,"WarningsMessages":[],"HasWarnings":false,"ConfirmMessages":[],"HasConfirm":false},"User":{"Id":3575,"UserName":"Tiago De Mattia","Password":null,"EmployeeId":null,"EmailAddress":null,"EmailConfirmed":false,"ActivationCode":null,"ChangePassword":false,"Employee":null,"Roles":[],"Permissions":[],"Companies":[],"Hubs":[],"IsCentralizer":false,"DateCreated":"2026-04-11T22:22:10.0273259Z","DateUpdated":null,"CreatedUserId":0,"UpdatedUserId":n
+
+[19:22:10] GET https://api-prod.nucleocheck.com/Menu/GetMenu
+  RESPONSE (200): [{"Id":1,"Constant":null,"Name":"Menú","Icon":"fa-concierge-bell","Route":null,"Childs":[{"Id":2,"Constant":null,"Name":"Productos","Icon":"fa-drumstick-bite","Route":null,"Childs":[{"Id":3,"Constant":null,"Name":"Lista de productos","Icon":null,"Route":"/products/list","Childs":[],"IsActive":true,"Enabled":true,"Order":1,"CurrentTimeZone":-3},{"Id":4,"Constant":null,"Name":"Stock de productos","Icon":null,"Route":"/products/productStockFlow","Childs":[],"IsActive":true,"Enabled":true,"Order":2,
+
+[19:22:35] POST https://api-prod.nucleocheck.com/Purchase/Save
+  BODY: {"Subtotal":0.83,"Subtotal2":0.83,"Tax":0.17,"Subtotal3":1,"Total":1,"PurchaseNumber":"93","InvoiceNumber":null,"Date":"2026-04-11T22:22:35.954Z","Discount":0,"DiscountPercentage":0,"ImpuestoInterno":0,"PercepcionGanancia":0,"PercepcionMunicipal":0,"PercepcionIIBB":0,"PercepcionIVA":0,"SupplierId":12,"Items":[{"Id":0,"IngredientId":1,"IngredientCode":"1","IngredientName":"CERVEZA","Quantity":1,"AlicuotaPercentage":21,"DiscountPercentage":0,"Discount":0,"TotalCost":1,"TotalCostWithNoTax":0.83,"UnitCostNoTax":0.82645,"LastUnitCostNoTax":0.82645,"Tax":0.17,"UnitCost":1,"LastUnitCost":1,"IsUnitCostChange":false}]}
+  RESPONSE (200): {"PurchaseOrder":null,"ValidationResult":{"ErrorMessages":[],"HasErrors":false,"WarningsMessages":[],"HasWarnings":false,"ConfirmMessages":[],"HasConfirm":false},"CurrentTimeZone":-3}
+
+[19:22:36] POST https://api-prod.nucleocheck.com/Account/ValidateToken
+  RESPONSE (200): {"ValidationResult":{"ErrorMessages":[],"HasErrors":false,"WarningsMessages":[],"HasWarnings":false,"ConfirmMessages":[],"HasConfirm":false},"User":{"Id":3575,"UserName":"Tiago De Mattia","Password":null,"EmployeeId":null,"EmailAddress":null,"EmailConfirmed":false,"ActivationCode":null,"ChangePassword":false,"Employee":null,"Roles":[],"Permissions":[],"Companies":[],"Hubs":[],"IsCentralizer":false,"DateCreated":"2026-04-11T22:22:36.5752944Z","DateUpdated":null,"CreatedUserId":0,"UpdatedUserId":n
+
+[19:23:28] GET https://api-prod.nucleocheck.com/Purchase/GetPurchaseItemsById/93
+  RESPONSE (200): [{"Id":467,"ProductId":null,"ProductName":null,"ProductCode":null,"SizeId":null,"IngredientId":1,"IngredientName":"CERVEZA","IngredientCode":"1","ServiceId":null,"ServiceName":null,"ServiceCode":null,"SupplyId":null,"SupplyName":null,"SupplyCode":null,"UnitCostNoTax":0.82645,"LastUnitCostNoTax":0.82645,"DiscountPercentage":0.00000,"Discount":0.00000,"AlicuotaPercentage":21.00000,"UnitCost":1.00000,"LastUnitCost":1.00000,"IsUnitCostChange":false,"IsCostUpdated":false,"Quantity":1.00000,"TotalCost
+
+[19:23:28] POST https://api-prod.nucleocheck.com/Purchase/ProcessPurchase/
+  BODY: {"SupplierPayments":[{"SupplierPaymentTransfers":[{"Amount":1,"DeleteId":26316}],"CashDrawerId":9,"PayWith":0,"Amount":1,"SupplierId":12,"Observation":""}],"PurchaseId":93,"Items":[{"Id":467,"ProductId":null,"ProductName":null,"ProductCode":null,"SizeId":null,"IngredientId":1,"IngredientName":"CERVEZA","IngredientCode":"1","ServiceId":null,"ServiceName":null,"ServiceCode":null,"SupplyId":null,"SupplyName":null,"SupplyCode":null,"UnitCostNoTax":0.82645,"LastUnitCostNoTax":0.82645,"DiscountPercentage":0,"Discount":0,"AlicuotaPercentage":21,"UnitCost":1,"LastUnitCost":1,"IsUnitCostChange":false,"IsCostUpdated":false,"Quantity":1,"TotalCost":1,"PurchaseId":93,"TotalCostWithNoTax":0.83,"Tax":0.17,"MeasurementUnitName":"L","DateCreated":"2026-04-11T22:23:28.7605902Z","DateUpdated":null,"CreatedUserId":0,"UpdatedUserId":null,"IsActive":true,"CurrentTimeZone":-3}]}
+  RESPONSE (200): {"ValidationResult":{"ErrorMessages":[],"HasErrors":false,"WarningsMessages":[],"HasWarnings":false,"ConfirmMessages":[],"HasConfirm":false},"PurchaseInvoice":null,"CurrentTimeZone":-3}
+
+[19:23:43] POST https://api-prod.nucleocheck.com/PurchaseInvoice/SaveInvoice/
+  BODY: {"purchaseId":93,"invoiceNumber":"1111-11111111","configFCEId":1}
+  RESPONSE (200): {"PurchaseInvoice":{"Id":74,"PurchaseId":93,"DocTypeId":9,"DocTypeName":null,"Date":"2026-04-11T22:23:43.3150065Z","Subtotal":0.83000,"DiscountPercentage":0.00000,"Discount":0.00000,"Subtotal2":0.83000,"Tax":0.17000,"Subtotal3":1.00000,"PercepcionGanancia":0.00000,"PercepcionIVA":0.00000,"PercepcionIIBB":0.00000,"ImpuestoInterno":0.00000,"PercepcionMunicipal":0.00000,"Total":1.00000,"TotalPaid":0.0,"SupplierId":12,"Supplier":{"Id":12,"Code":"12","Name":"MINGA","TaxConditionId":2,"Description":nu
+
+[19:23:43] POST https://api-prod.nucleocheck.com/PurchaseInvoice/Save
+  BODY: {"Id":74,"PurchaseId":93,"DocTypeId":9,"DocTypeName":null,"Date":"2026-04-01T03:00:00.000Z","Subtotal":0.83,"DiscountPercentage":0,"Discount":0,"Subtotal2":0.83,"Tax":0.17,"Subtotal3":1,"PercepcionGanancia":0,"PercepcionIVA":0,"PercepcionIIBB":0,"ImpuestoInterno":0,"PercepcionMunicipal":0,"Total":1,"TotalPaid":0,"SupplierId":12,"Supplier":{"Id":12,"Code":"12","Name":"MINGA","TaxConditionId":2,"Description":null,"DocumentTypeId":2,"DocumentType":null,"DocumentNumber":"30-71530373-2","Balance":0,"Phones":[],"Addresses":[],"DateCreated":"2026-01-28T01:40:39","DateUpdated":"2026-03-18T21:34:28","CreatedUserId":0,"UpdatedUserId":3575,"IsActive":true,"CurrentTimeZone":-3},"IsProcessed":true,"Observation":null,"InvoiceNumber":"1111-11111111","Items":[{"Id":405,"ProductId":null,"ProductName":null,"ProductCode":null,"IngredientId":1,"IngredientName":null,"IngredientCode":null,"ServiceId":null,"ServiceName":null,"ServiceCode":null,"SupplyId":null,"SupplyName":null,"SupplyCode":null,"UnitCostNoTax":0.82645,"DiscountPercentage":0,"Discount":0,"AlicuotaPercentage":21,"UnitCost":1,"Quantity":1,"TotalCost":1,"PurchaseInvoiceId":74,"TotalCostWithNoTax":0.83,"Tax":0.17,"DateCreated":"2026-04-11T22:23:43.3150073Z","DateUpdated":null,"CreatedUserId":0,"UpdatedUserId":null,"IsActive":true,"CurrentTimeZone":-3}],"SupplierPayments":[],"DateCreated":"2026-04-11T22:23:43.3150069Z","DateUpdated":null,"CreatedUserId":3575,"UpdatedUserId":null,"IsActive":true,"CurrentTimeZone":-3}
+  RESPONSE (200): {"PurchaseInvoice":{"Id":74,"PurchaseId":93,"DocTypeId":9,"DocTypeName":null,"Date":"2026-04-01T03:00:00Z","Subtotal":0.83,"DiscountPercentage":0.0,"Discount":0.0,"Subtotal2":0.83,"Tax":0.17,"Subtotal3":1.0,"PercepcionGanancia":0.0,"PercepcionIVA":0.0,"PercepcionIIBB":0.0,"ImpuestoInterno":0.0,"PercepcionMunicipal":0.0,"Total":1.0,"TotalPaid":0.0,"SupplierId":12,"Supplier":{"Id":12,"Code":"12","Name":"MINGA","TaxConditionId":2,"Description":null,"DocumentTypeId":2,"DocumentType":null,"DocumentNu
+
+
+── TODOS LOS REQUESTS ──
+
+[19:21:41] GET https://prod.nucleocheck.com/
+[19:21:42] GET https://prod.nucleocheck.com/styles.e684ffaf8e90260a.css
+[19:21:42] GET https://prod.nucleocheck.com/runtime.3f8b08db92928631.js
+[19:21:42] GET https://prod.nucleocheck.com/polyfills.59f8c7604ad22737.js
+[19:21:42] GET https://prod.nucleocheck.com/scripts.89ccab550f3a35e4.js
+[19:21:42] GET https://prod.nucleocheck.com/main.342499cbff63ae61.js
+[19:21:42] GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDz8Z1xlFd2JQEk.woff2
+[19:21:44] GET https://prod.nucleocheck.com/assets/configs.json
+[19:21:44] POST https://api-prod.nucleocheck.com/Account/ValidateToken
+[19:21:45] GET https://api-prod.nucleocheck.com/assets/images/business/NucleoItLogo.png
+[19:21:45] GET https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2
+[19:21:57] POST https://api-prod.nucleocheck.com/Account/ValidateUserAndGetCompanies
+[19:21:57] GET https://prod.nucleocheck.com/fa-solid-900.620019ed9d1100b6.woff2
+[19:21:57] POST https://api-prod.nucleocheck.com/Account/LoginUser
+[19:21:58] POST https://api-prod.nucleocheck.com/Account/ValidateToken
+[19:21:58] GET https://api-prod.nucleocheck.com/Menu/GetMenu
+[19:21:58] GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2
+[19:21:58] GET https://api-prod.nucleocheck.com/SystemConfiguration/GetSystemConfiguration
+[19:21:58] GET https://api-prod.nucleocheck.com/assets/images/business/NucleoItLogo50x50.png
+[19:21:58] GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2
+[19:21:58] POST https://api-prod.nucleocheck.com/NucleoHub/negotiate?clientType=web&clientId=web-1775946117845-f0i9ykngx-chr&companyId=1041&negotiateVersion=1
+[19:21:59] GET https://api-prod.nucleocheck.com/Order/GetCompanySummary
+[19:21:59] POST https://ngsignal.service.signalr.net/client/negotiate?hub=nucleohub&asrs.op=%2FNucleoHub&clientType=web&clientId=web-1775946117845-f0i9ykngx-chr&companyId=1041&negotiateVersion=1&asrs_request_id=yRv9LgoOAAA%3D
+[19:21:59] GET https://api-prod.nucleocheck.com/PartnerOrder/GetPartnersAvailables
+[19:22:00] GET https://prod.nucleocheck.com/assets/media/logos/nucleoCheckInLine.png
+[19:22:00] GET https://prod.nucleocheck.com/assets/media/logos/nucleoIt.png
+[19:22:00] GET https://prod.nucleocheck.com/assets/media/logos/NucleoItLogo.png
+[19:22:00] GET https://prod.nucleocheck.com/assets/media/logos/noImage.png
+[19:22:00] GET https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2
+[19:22:01] GET https://api-prod.nucleocheck.com/WorkstationList/GetValueOptionsForChoiceControls
+[19:22:01] GET https://api-prod.nucleocheck.com/Menu/GetMenu
+[19:22:08] POST https://api-prod.nucleocheck.com/Account/ValidateToken
+[19:22:09] GET https://prod.nucleocheck.com/983.e6de9915fe57f022.js
+[19:22:09] GET https://prod.nucleocheck.com/515.297cd07fbff6e3d4.js
+[19:22:09] GET https://prod.nucleocheck.com/680.4990d6c66b58d0aa.js
+[19:22:09] GET https://prod.nucleocheck.com/291.8f83edd8accc94d2.js
+[19:22:09] GET https://prod.nucleocheck.com/659.ba5fa785b35c94c9.js
+[19:22:09] GET https://prod.nucleocheck.com/188.6aeaf24585e29401.js
+[19:22:09] GET https://prod.nucleocheck.com/104.373cecc2a9517c23.js
+[19:22:09] GET https://prod.nucleocheck.com/common.d993bb7b1516ff3a.js
+[19:22:09] GET https://prod.nucleocheck.com/581.c1975f6288770381.js
+[19:22:09] POST https://api-prod.nucleocheck.com/Account/ValidateToken
+[19:22:09] POST https://api-prod.nucleocheck.com/Account/ValidateToken
+[19:22:10] GET https://api-prod.nucleocheck.com/PurchaseEditor/GetPurchaseEditorData/undefined
+[19:22:10] GET https://api-prod.nucleocheck.com/Menu/GetMenu
+[19:22:35] POST https://api-prod.nucleocheck.com/Purchase/Save
+[19:22:36] POST https://api-prod.nucleocheck.com/Account/ValidateToken
+[19:22:36] GET https://api-prod.nucleocheck.com/PurchaseList/GetPurchaseListFilteringOptions
+[19:22:37] GET https://api-prod.nucleocheck.com/PurchaseList/FindPaged/?PurchaseNumber=&DateFrom=Sat,%2011%20Apr%202026%2003:00:00%20GMT&DateTo=Mon,%2013%20Apr%202026%2002:59:59%20GMT&IsUseTimeRange=false&HourFrom=0&MinuteFrom=0&HourTo=23&MinuteTo=59&ActivationState=1&PageNumber=1&PageSize=20&SortOrder=
+[19:23:10] GET https://api-prod.nucleocheck.com/Customer/GetCustomerBalanceById/0
+[19:23:10] GET https://api-prod.nucleocheck.com/CashDrawer/GetCashDrawersForSelector
+[19:23:10] GET https://prod.nucleocheck.com/189.288b5088a3514347.js
+[19:23:10] GET https://prod.nucleocheck.com/assets/media/icons/efectivo_btn_icon.png
+[19:23:10] GET https://prod.nucleocheck.com/assets/media/icons/tdebito_btn_icon.png
+[19:23:10] GET https://prod.nucleocheck.com/assets/media/icons/qr_btn_icon.png
+[19:23:10] GET https://prod.nucleocheck.com/assets/media/icons/transf_btn_icon.png
+[19:23:10] GET https://prod.nucleocheck.com/assets/media/icons/cc_btn_icon.png
+[19:23:10] GET https://prod.nucleocheck.com/assets/media/icons/cheq_btn_icon.png
+[19:23:10] GET https://prod.nucleocheck.com/assets/media/icons/tcredito_btn_icon.png
+[19:23:10] GET https://prod.nucleocheck.com/assets/media/icons/mp_btn_icon.png
+[19:23:10] GET https://prod.nucleocheck.com/assets/media/icons/vale_btn_icon.png
+[19:23:27] GET https://api-prod.nucleocheck.com/CashDrawer/IsCashDrawerOpen/9
+[19:23:28] GET https://api-prod.nucleocheck.com/Purchase/GetPurchaseItemsById/93
+[19:23:28] POST https://api-prod.nucleocheck.com/Purchase/ProcessPurchase/
+[19:23:29] GET https://api-prod.nucleocheck.com/PurchaseList/FindPaged/?PurchaseNumber=&DateFrom=Sat,%2011%20Apr%202026%2003:00:00%20GMT&DateTo=Mon,%2013%20Apr%202026%2002:59:59%20GMT&IsUseTimeRange=false&HourFrom=0&MinuteFrom=0&HourTo=23&MinuteTo=59&ActivationState=1&PageNumber=1&PageSize=20&SortOrder=
+[19:23:32] GET https://api-prod.nucleocheck.com/PurchaseInvoice/IsInvoiced/93
+[19:23:32] GET https://api-prod.nucleocheck.com/Supplier/FindById/12
+[19:23:43] POST https://api-prod.nucleocheck.com/PurchaseInvoice/SaveInvoice/
+[19:23:43] POST https://api-prod.nucleocheck.com/PurchaseInvoice/Save
+[19:23:43] GET https://api-prod.nucleocheck.com/PurchaseList/FindPaged/?PurchaseNumber=&DateFrom=Sat,%2011%20Apr%202026%2003:00:00%20GMT&DateTo=Mon,%2013%20Apr%202026%2002:59:59%20GMT&IsUseTimeRange=false&HourFrom=0&MinuteFrom=0&HourTo=23&MinuteTo=59&ActivationState=1&PageNumber=1&PageSize=20&SortOrder=
